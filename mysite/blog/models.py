@@ -13,4 +13,4 @@ class Voetbalspelers(models.Model):
         self.save()
         
         def __str__(self):
-            self.naam_voetballer
+            return self.naam_voetballer
